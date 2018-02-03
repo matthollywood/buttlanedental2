@@ -10,11 +10,13 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-about">
 
      <div class="body-content">
-    
+
          <h2>Facilities & Access</h2>
          <div class ="row">
              <div class="col-lg-4">
-             <h4>Facilities</h4>
+               <div class="dent-title">
+                 <h4>Facilities</h4>
+               </div>
              <p>The practice is a fully equipped dental surgery for the provision of Private and NHS treatments.  Your safety, needs and wishes are taken seriously.  We are fully registered with the Care Quality Commission (from April 2011)</p>
             </div>
              <div class="col-lg-4">
@@ -25,20 +27,20 @@ $this->params['breadcrumbs'][] = $this->title;
              </div>
         </div>
 
- 
 
- 
-         
+
+
+
          <div class="row">
-             
-                
-             
-         </div>
- 
 
- 
+
+
+         </div>
+
+
+
 
 
      </div>
- 
+
 </div>

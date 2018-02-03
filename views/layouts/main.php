@@ -28,20 +28,20 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-    
+
     <div class="wrap col-lg-2 side-div" style="background-color:#41B6E6; height: 100%"></div>
 <div class="wrap col-lg-8" style="background-color:#FFFFFF">
     <div style="text-align:center;">
-        <img src="images/buttlanelogo.jpg" style="width: 20%; position: center;">
+    <?= Html::a('<img src="images/buttlanelogo.jpg" style="width: 30%; position: center;">',['site/index'])?>
     </div>
-    
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>
       </button>
        <?= Html::a('Home', ['site/index'], ['class' => 'navbar-brand'])?></a>
     </div>
@@ -57,15 +57,15 @@ AppAsset::register($this);
           <li><?= Html::a('Dental Nurses', ['site/dentalnurses'])?></a></li>
           <li><?= Html::a('Reception', ['site/reception'])?></a></li>
         </ul>
-        <li><?= Html::a('Picture Gallery', ['site/picturegallery'])?></a></li> 
+        <li><?= Html::a('Picture Gallery', ['site/picturegallery'])?></a></li>
         <li><?= Html::a('Treatments', ['site/treatments'])?></a></li>
-        <li><?= Html::a('Emergencies', ['site/emergencies'])?></a></li> 
-        <li><?= Html::a('Contact Us', ['site/contactus'])?></a></li> 
+        <li><?= Html::a('Emergencies', ['site/emergencies'])?></a></li>
+        <li><?= Html::a('Contact Us', ['site/contactus'])?></a></li>
       </ul>
     </div>
   </div>
 </nav>
-    
+
     <div>
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
@@ -73,7 +73,7 @@ AppAsset::register($this);
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
-    <footer class="footer" style="text-align:center;position: relative;
+    <footer class="footer" style="text-align:center;
   right: 0;
   bottom: 0;
   left: 0;">
@@ -86,7 +86,7 @@ AppAsset::register($this);
 
     <div class="wrap col-lg-2 side-div" style="background-color:#41B6E6; height: 100%"></div>
 <?php $this->endBody() ?>
-    
+
 
 </body>
 
