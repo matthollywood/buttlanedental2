@@ -9,9 +9,10 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
     <div class ="body-content">
-
+<div class="card">
       <div class="row">
-          <div class ="col-lg-8">
+
+          <div class ="col-lg-12">
             <img src="images/family.jpg" class = "pc-image" style="float: right; width: 25%; padding: 4px 4px 4px 4px">
             <div class="dent-title"><h2>Dental Care Plan</h2></div> <br>
             In addition to NHS dentistry, here at Butt Lane Dental Surgery we are delighted to offer several Care Plans- our own membership schemes, which enable us to provide you with the care and
@@ -19,10 +20,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
         </div>
       </div>
+      </div>
 
 
 
 <div class="row">
+
 <div class="col-lg-3 col-xs-8">
 <div class="card">
 Our modern health-promoting approach with continuing care means:

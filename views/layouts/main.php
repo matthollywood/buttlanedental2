@@ -32,7 +32,7 @@ AppAsset::register($this);
     <div class="wrap col-lg-3 side-div" style="background-color:#41B6E6; height: 100%"></div>
 <div class="wrap col-lg-6" style="background-color:#FFFFFF">
     <div style="text-align:center;">
-    <?= Html::a('<img src="images/buttlanelogo.jpg" style="width: 30%; position: center;">',['site/index'])?>
+    <?= Html::a('<img src="images/buttlanelogo.jpg" style="width: 40%; position: center;">',['site/index'])?>
     </div>
 
 <nav class="navbar navbar-default">
