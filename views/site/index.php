@@ -9,23 +9,25 @@ $this->title = 'Butt Lane Dental Care';
 
 
     <div class="body-content">
+      <div class="col-lg-12">
         <div class="row">
-            <div class="col-lg-4 col-xs-12">
-              <div class="dent-title">
-                <h1>Welcome to Butt Lane Dental Practice</h1>
-              </div>
-                We are a friendly, family-based dental practice providing both NHS and private dental care.  We are committed to providing quality care in a safe and healthy environment and aim to make each patient's visit a pleasant experience.  We believe that service to our patients is paramount.
-
-
-              </div>
-              <div class="col-lg-4" style="float:right">
-                  <img src="images/family.jpg" class = "pc-image" style="float: right; width: 75%; padding: 4px 4px 4px 4px">
-              </div>
-
+          <div class="col-lg-4 col-xs-12">
+            <div class="dent-title">
+              <h1>Welcome to Butt Lane Dental Practice</h1>
             </div>
-<div class = "row">
+                We are a friendly, family-based dental practice providing both NHS and private dental care.  We are committed to providing quality care in a safe and healthy environment and aim to make each patient's visit a pleasant experience.  <br>
+                <div class="dent-title">
+                  <h3>  We believe that service to our patients is paramount. </h3>
+                </div>
 
-            <div class="col-lg-4 float-right" style="float:right">
+          </div>
+            <div class="col-lg-4" style="float:right">
+              <img src="images/family.jpg" class = "pc-image" style="float: right; width: 75%; padding: 4px 4px 4px 4px">
+            </div>
+
+          </div>
+          <div class = "row">
+            <div class="col-lg-4">
               <div class="card">
                 <div>
                 <dl>
@@ -38,12 +40,12 @@ $this->title = 'Butt Lane Dental Care';
                 <dd>9.00am - 1.00pm and 2.00pm - 5.00pm</dd>
                 <br>
                 <dt>Tel: 01782 774396</dt>
-              </ul>
+                </dl>
                 </div>
               </div>
             </div>
-</div>
-
+          </div>
+        </div>
 
 
         <!-- <div class="row">

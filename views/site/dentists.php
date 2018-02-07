@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div class ="body-content">
     <div class="row">
-  <div class="col-lg-11 col-lg-offset-1" >
+  <div class="col-lg-12" >
     <div class="card" style="height: 100%">
       <img src="images/john.jpg" class="img-center" alt="John" style="float: left; width:25%; padding: 0px 15px 15px 0px;">
       <div class="dent-title">
@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
   </div>
   </div>
   <div class="row">
-      <div class="col-lg-11 col-lg-offset-1" >
+      <div class="col-lg-12" >
     <div class="card" style ="height: 100%">
       <img src="images/jane.jpg" alt="jane" style="float: left; width:25%; padding: 0px 15px 15px 0px;">
       <div class="dent-title">
