@@ -11,7 +11,7 @@ $this->title = 'Butt Lane Dental Care';
     <div class="body-content">
       <div class="col-lg-12">
         <div class="row">
-          <div class="col-lg-4 col-xs-12">
+          <div class="col-lg-5 col-xs-12">
             <div class="dent-title">
               <h1>Welcome to Butt Lane Dental Practice</h1>
             </div>
@@ -21,30 +21,34 @@ $this->title = 'Butt Lane Dental Care';
                 </div>
 
           </div>
-            <div class="col-lg-4" style="float:right">
-              <img src="images/family.jpg" class = "pc-image" style="float: right; width: 75%; padding: 4px 4px 4px 4px">
+            <div class="col-lg-5 col-lg-offset-1 col-xs-12" style="float:right">
+
+              <img src="images/family.jpg" class = "pc-image" style="float: right; width: 100%; padding: 4px 4px 4px 4px">
+
+
+
+
+                  <div class="card">
+                    <div>
+                    <dl>
+                    <dt><h4>Opening Hours:</h4></dt>
+                    <dt>Monday & Tuesday</dt>
+                    <dd>11.00am - 2.00pm and 3.00pm - 7.00pm</dd>
+                    <dt>Wednesday</dt>
+                    <dd>8.15am - 12.15pm and 1.30pm - 4.15pm</dd>
+                    <dt>Thursday & Friday</dt>
+                    <dd>9.00am - 1.00pm and 2.00pm - 5.00pm</dd>
+                    <br>
+                    <dt>Tel: 01782 774396</dt>
+                    </dl>
+                    </div>
+                  </div>
+
+
             </div>
 
           </div>
-          <div class = "row">
-            <div class="col-lg-4">
-              <div class="card">
-                <div>
-                <dl>
-                <dt><h4>Opening Hours:</h4></dt>
-                <dt>Monday & Tuesday</dt>
-                <dd>11.00am - 2.00pm and 3.00pm - 7.00pm</dd>
-                <dt>Wednesday</dt>
-                <dd>8.15am - 12.15pm and 1.30pm - 4.15pm</dd>
-                <dt>Thursday & Friday</dt>
-                <dd>9.00am - 1.00pm and 2.00pm - 5.00pm</dd>
-                <br>
-                <dt>Tel: 01782 774396</dt>
-                </dl>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
 
 
